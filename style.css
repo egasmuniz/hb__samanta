@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Love+Ya+Like+A+Sister&family=Lovers+Quarrel&family=Shadows+Into+Light&display=swap');
+	
+:root {
+    --cor-primaria: #d2f1e4;
+    --cor-secundaria: #48304d;
+    --cor-terciaria: #f865b0;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	box-sizing: border-box;
+	background-color: var(--cor-primaria);
+}
+.cabecalho{	
+	background-color: var(--cor-secundaria);
+}
+.cabecalho__menu{
+	display: flex;
+	gap: 80px;
+	padding: 2% 0 2% 15%;
+}
+.cabecalho__menu__item{
+	font-weight: bold;
+	font-size: 24px;
+	color: var(--cor-primaria);
+	text-decoration: none;
+
+}
+.main{
+	padding: 5% 15%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.main__first{
+	display: flex;
+	width: 600px;
+	flex-direction: column;
+	gap: 80px;
+}
+.main__first__titulo{
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 36px;
+	color: var(--cor-terciaria);
+}
+.main__first__paragrafo{
+	font-size: 24px;
+	font-family: 'Edu NSW ACT Foundation', cursive;
+	font-weight: bold;
+	color: var(--cor-terciaria);
+}
+.main_second{
+	width: 100%;
+	padding-top: 5%;
+
+}
+.main__second__titulo{
+	text-align: center;
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 36px;
+	color: var(--cor-terciaria);
+	padding-bottom: 2%; 
+}
+.main__second__paragrafo{
+	text-align: center;
+	font-size: 24px;
+	font-family: 'Edu NSW ACT Foundation', cursive;
+	font-weight: bold;
+	color: var(--cor-terciaria);
+	padding-right: 6%; 
+	padding-left: 6%;
+}
+
+/*Nossas Fotos*/
+
+.main__img{
+	width: 1300px;
+	display: flex;
+	gap: 40px;
+	flex-wrap: wrap;
+}
+.Fotos{
+	transition: 1s all;
+}
+.Fotos:hover{
+	transform: scale(1.2);
+
+}
