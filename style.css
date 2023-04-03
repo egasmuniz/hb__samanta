@@ -89,7 +89,7 @@ body{
 /*Nossas Fotos*/
 
 .main__img{
-	width: 70%;
+	width: 1300px;
 	display: flex;
 	gap: 40px;
 	flex-wrap: wrap;
